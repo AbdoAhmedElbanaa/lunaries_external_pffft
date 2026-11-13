@@ -44,9 +44,11 @@ cc_library_static {
     export_include_dirs: ["."],
     host_supported: true,
     visibility: [
+        "//external/steam-audio",
         "//external/webrtc:__subpackages__",
         "//frameworks/av/media/libaudioclient/tests",
         "//hardware/interfaces/audio/aidl/vts",
+        "//packages/apps/AxionFx:__subpackages__",
         "//vendor:__subpackages__",
     ],
     cflags: [
